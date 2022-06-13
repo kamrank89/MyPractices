@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  border: 2px solid darkgray;
+  text-align: left;
+}
+.test {
+  text-decoration: line-through;
+}
+.items {
+  color: green;
+}
