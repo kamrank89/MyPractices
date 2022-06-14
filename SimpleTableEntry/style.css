@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.first-row input[type="text"] {
+  width: 90%;
+  height: 40px;
+  text-align: left;
+}
+.header-div {
+  justify-content: center;
+  text-align: center;
+}
+.first-row {
+  justify-content: center;
+  text-align: center;
+}
+#second-row-2 {
+  width: 85%;
+  height: 40px;
+}
+#second-row-1 {
+  height: 40px;
+}
+.second-row {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.third-row {
+  text-align: center;
+  padding-top: 20px;
+}
+#third-row-1 {
+  width: 160px;
+  height: 40px;
+  font-size: 2rem;
+}
+.table {
+  margin-top: 20px;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  align-items: center;
+  margin-left: 5%;
+}
+table {
+  width: 90%;
+}
