@@ -21,6 +21,22 @@ app.use(express.static("public"));
 app.get("/", function (req, res) {
   res.render("home", { homeStartingContent: homeStartingContent });
 });
+app.get("/contact", function (req, res) {
+  res.render("contact", { contactContent: contactContent });
+});
+app.get("/about", function (req, res) {
+  res.render("about", { aboutContent: aboutContent });
+});
+app.get("/compose", function (req, res) {
+  res.render("compose");
+});
+
+app.post("/compose", function (req, res) {
+  let post = {
+    title: req.body.titleInput,
+    content: req.body.contentinput,
+  };
+});
 
 app.listen(3000, function () {
   console.log("Server started on port 3000");
