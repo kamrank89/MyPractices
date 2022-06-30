@@ -33,6 +33,12 @@ app.get("/articles", function (req, res) {
     }
   });
 });
+
+app.post("/articles", function (req, res) {
+  console.log(req.body.title);
+  console.log(req.body.content);
+});
+
 app.listen(3000, function () {
   console.log("Server started on port 3000");
 });
