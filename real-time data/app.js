@@ -18,7 +18,7 @@ let year = "";
 let population = "";
 const data = async () => {
   const response = await fetch(
-    "https://datausa.io/api/data?drilldowns=Nation&measures=Population&year=latest"
+    "https://datausa.io/api/data?drilldowns=Nation&measures=Population&year=2015"
   );
   const myJson = await response.json();
   nation = myJson.data[0].Nation;
