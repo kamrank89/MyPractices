@@ -1,0 +1,24 @@
+.header {
+  justify-content: center;
+  margin-top: 5%;
+  box-shadow: 2px 2px 2px 2px gray;
+  border: 2px solid black;
+}
+
+.content {
+  margin-top: 5%;
+  font-size: large;
+}
+
+.centertext {
+  text-align: center;
+  justify-content: center;
+}
+
+input {
+  width: 20%;
+}
+
+.form {
+  margin-top: 5px;
+}

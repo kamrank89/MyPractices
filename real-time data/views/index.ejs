@@ -3,14 +3,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>US Population</title>
   </head>
   <body>
-    <div class="header">
+    <div class="header centertext">
       <h1><%= content %></h1>
     </div>
-    <p><%= country %></p>
-    <p><%= year %></p>
-    <p><%= population %></p>
+    <div class="content centertext">
+      <p>State : <%= state %></p>
+      <p>Year : <%= year %></p>
+      <p>Population : <%= population %></p>
+    </div>
+    <div class="form centertext">
+      <form action="/" method="post">
+        <div class="form inputs">
+          <input type="text" name="stateName" placeholder="type your state" />
+        </div>
+        <div class="form inputs">
+          <input
+            type="text"
+            name="yearDate"
+            placeholder="type your desired year (2013-2020)"
+          />
+        </div>
+        <div class="form submit">
+          <button type="submit">Sumbit</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
